@@ -4,14 +4,18 @@
 #' @param n sample size
 #' @param p probability of a success
 #'
+#' @importFrom grDevices rainbow
+#' @importFrom graphics barplot
+#'
 #' @return plot of binomial distribution and random variable probabilities
 #' @export
 #'
 #' @examples
+#' mybin(10000, 10, 0.3)
 mybin <- function(iter=100,n=10, p=0.5){
   # make a matrix to hold the samples
   #initially filled with NA's
-  sam.mat=matrix(NA,nr=n,nc=iter, byrow=TRUE)
+  sam.mat=matrix(NA,nrow=n,ncol=iter, byrow=TRUE)
 
   #Make a vector to hold the number of successes in each trial
   succ=c()
