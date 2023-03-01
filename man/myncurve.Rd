@@ -4,14 +4,14 @@
 \alias{myncurve}
 \title{Plot for normal distribution and area of P(X<=a)}
 \usage{
-myncurve(a, mu, sigma)
+myncurve(mu, sigma, a)
 }
 \arguments{
-\item{a}{value to calculate P(X<=a)}
-
 \item{mu}{mean}
 
 \item{sigma}{standard deviation}
+
+\item{a}{value to calculate P(X<=a)}
 }
 \value{
 P(X<=a) in a list

@@ -1,8 +1,8 @@
 #' Plot for normal distribution and area of P(X<=a)
 #'
-#' @param a value to calculate P(X<=a)
 #' @param mu mean
 #' @param sigma standard deviation
+#' @param a value to calculate P(X<=a)
 #'
 #' @importFrom stats dnorm pnorm
 #' @importFrom graphics curve polygon
@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' myncurve(5, 10, 3)
-myncurve <- function(a, mu, sigma){
+myncurve <- function(mu, sigma, a){
   # Create the normal distribution curve
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
   # Calculate the area from -infinity to a
