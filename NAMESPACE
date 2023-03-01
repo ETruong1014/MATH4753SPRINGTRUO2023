@@ -2,7 +2,12 @@
 
 export(mybin)
 export(myfun)
+export(myncurve)
 export(z)
 importFrom(grDevices,rainbow)
 importFrom(graphics,barplot)
+importFrom(graphics,curve)
+importFrom(graphics,polygon)
+importFrom(stats,dnorm)
+importFrom(stats,pnorm)
 importFrom(stats,sd)

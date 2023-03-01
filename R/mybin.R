@@ -1,4 +1,4 @@
-#' Title
+#' Barplot for binomial distribution and probabilities
 #'
 #' @param iter number of iterations
 #' @param n sample size

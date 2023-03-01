@@ -2,7 +2,7 @@
 % Please edit documentation in R/mybin.R
 \name{mybin}
 \alias{mybin}
-\title{Title}
+\title{Barplot for binomial distribution and probabilities}
 \usage{
 mybin(iter = 100, n = 10, p = 0.5)
 }
@@ -17,7 +17,7 @@ mybin(iter = 100, n = 10, p = 0.5)
 plot of binomial distribution and random variable probabilities
 }
 \description{
-Title
+Barplot for binomial distribution and probabilities
 }
 \examples{
 mybin(10000, 10, 0.3)
