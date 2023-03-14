@@ -13,6 +13,9 @@
 #' @examples
 #' myncurve(5, 10, 3)
 myncurve <- function(mu, sigma, a){
+  # Locally define x to prevent check note
+  x = NULL
+
   # Create the normal distribution curve
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
   # Calculate the area from -infinity to a
