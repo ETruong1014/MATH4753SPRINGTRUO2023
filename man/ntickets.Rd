@@ -2,7 +2,7 @@
 % Please edit documentation in R/ntickets.R
 \name{ntickets}
 \alias{ntickets}
-\title{Title}
+\title{Find the optimal number of tickets to sell for a flight}
 \usage{
 ntickets(N, gamma, p)
 }
@@ -17,7 +17,7 @@ ntickets(N, gamma, p)
 list containing optimal tickets for discrete and continuous, along with parameters
 }
 \description{
-Title
+Find the optimal number of tickets to sell for a flight
 }
 \examples{
 ntickets(N=400, gamma=0.02, p=0.95)

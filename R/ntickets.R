@@ -1,4 +1,4 @@
-#' Title
+#' Find the optimal number of tickets to sell for a flight
 #'
 #' @param N number of seats on flight
 #' @param gamma probability of overbooking
