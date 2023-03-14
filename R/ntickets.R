@@ -72,7 +72,7 @@ ntickets <- function(N, gamma, p) {
                       " continuous"))
 
   # Store values in final list
-  finalList = list(nd = nd, nc = nc, N = N, p = p, gamma = gamma)
+  finalList = list(nd = nd, nc = nc, N = N, gamma = gamma, p = p)
 
   # Return final list
   return(finalList)
